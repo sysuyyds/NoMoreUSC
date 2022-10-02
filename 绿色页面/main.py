@@ -6,7 +6,7 @@ import os
 from modify import modify_html
 # 创建服务器套接字
 serverSocket = socket(AF_INET, SOCK_STREAM) # 创建TCP套接字
-serverPort = 12000  # 设置服务器端口
+serverPort = 80  # 设置服务器端口
 serverSocket.bind(('', serverPort)) # 绑定服务器端口
 serverSocket.listen(50)  # 设置服务器监听，最多可以接收50个连接
 
