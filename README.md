@@ -24,7 +24,7 @@ USB-中山大学小学出校中心
 ```
 git clone https://github.com/sysuyyds/NoMoreUSC
 ```
-三个文件夹app扔三台服务器上面（或者一台上面多个端口你喜欢就好）
+两个文件夹（除了USB）app扔两台服务器上面（或者一台上面多个端口你喜欢就好），USB直接cf免费部署或者vercel自己看着办
 ```
 cd 某个文件夹
 ```
