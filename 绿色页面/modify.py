@@ -20,7 +20,7 @@ def modify_html(name, number, apartment, start_time, end_time):
     # html = html.replace('超级无敌学院', apartment)
     # html = html.replace('开始日期', start_time)
     # html = html.replace('结束日期', end_time)
-    link_to_QR_code('http://你的二维码服务器地址:12000/'+file_name, png_name)
+    link_to_QR_code('http://你的服务器域名/'+file_name, png_name)
     # save to new file with name number apartment start_time end_time
     with open(file_name, 'w', encoding="utf-8") as f:
         f.write(html)
