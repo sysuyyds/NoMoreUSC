@@ -110,7 +110,7 @@
         var start_time = document.getElementById("start_time").value;
         var end_time = document.getElementById("end_time").value;
         if (person_name && person_num && apartment && start_time && end_time){
-            var base_url = "http://你的绿色页面服务器地址:12000/";
+            var base_url = "http://你的绿色页面服务器域名/";
             var total = ''.concat(base_url,person_name,'_',person_num,'_',apartment,'_',start_time,'_',end_time,'.html');
             window.open(total, '_blank').focus();
         }
